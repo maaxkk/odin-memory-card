@@ -1,0 +1,30 @@
+
+.card {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.card--picked {
+    background-color: lightcoral;
+}
+
+.card > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 9px 9px 0 0;
+}
+
+.card--name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}

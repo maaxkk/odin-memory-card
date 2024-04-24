@@ -1,0 +1,8 @@
+.main {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+}

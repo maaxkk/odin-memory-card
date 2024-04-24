@@ -1,0 +1,23 @@
+.navbar {
+    height: 90px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar--score, .navbar--bestscore {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar--container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar--score {
+    margin-right: 2rem;
+}
